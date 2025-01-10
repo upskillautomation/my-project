@@ -94,7 +94,7 @@ function Header() {
             <MenuItem>
               <Typography
                 component={Link}
-                to="/course-details"
+                to="/course"
                 sx={{
                   textAlign: "center",
                   textDecoration: "none",
