@@ -42,7 +42,8 @@ function Header() {
     <AppBar position="static" sx={{backgroundColor: "darkblue"}}>
       
           <Grid container sx={{height:100, alignItems:'center'}}>
-            <Grid size={{ xs: 12, md: 2 }} sx={{alignItems:'center', ml:3}}>
+            <Grid size={{ xs: 12, md: 2 }} sx={{alignItems:'center', ml:3}} component={Link}
+                to="/">
               <img src={Logo} alt="logo" width="80px" height="70px"/>
                 
             </Grid>
