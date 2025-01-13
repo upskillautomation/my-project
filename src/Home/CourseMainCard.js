@@ -154,6 +154,7 @@ export const CourseMainCard = () => {
           <Grid size={{ xs: 12, md: 3 }}>
             <Card
               sx={{
+                height:"500px"
                 border:'1px solid red',
                 ":hover": { transform: "scale(1.0.1)" },
                 transition: "transform 0.5s",
@@ -175,8 +176,6 @@ export const CourseMainCard = () => {
                   {" "}
                   <b>Course Duration:</b> {card.duration}
                 </Typography>
-                <br />
-                <br />
                 <Button
                   component={Link}
                   to="/course-details"
