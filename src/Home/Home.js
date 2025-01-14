@@ -10,6 +10,10 @@ import {
   Typography,
 } from "@mui/material";
 import img1 from "./home.png";
+import img2 from "../Images/slide2.jpeg";
+import img3 from "../Images/slide3.jpeg";
+import PopUp from "./PopUp";
+
 function Home() {
   
   const sliderSettings = {
@@ -48,10 +52,10 @@ function Home() {
             <img src={img1} width="100%" height="450px" alt="automation" />
           </div>
           <div>
-            <img src={img1} width="100%" height="450px" alt="automation" />
+            <img src={img2} width="100%" height="450px" alt="automation" />
           </div>
           <div>
-            <img src={img1} width="100%" height="450px" alt="automation" />
+            <img src={img3} width="100%" height="450px" alt="automation" />
           </div>
         </Slider>
 
@@ -59,7 +63,7 @@ function Home() {
           sx={{ margin: "auto", mt: 8, p: 2,  color: "blue", borderRadius: 2 }}
           elevation={4}
         >
-          <CardContent>
+          
             <Grid container spacing={5} sx={{border :"1px solid blue", p:10, borderRadius: 2}}>
               {/* Vision Section */}
               <Grid size={{ xs: 12, md: 6 }}>
@@ -88,7 +92,6 @@ function Home() {
                 </Typography>
               </Grid>
             </Grid>
-          </CardContent>
         </Container>
 
         <Container maxWidth="lg" sx={{ mt: 6, backgroundColor: "darkBlue" , p:4, color:'white', borderRadius: 2}}>
@@ -123,12 +126,13 @@ function Home() {
               </Typography>
             </Grid>
             <Grid size={{ xs: 12, md: 6 }}>
-              <img src="https://cdn.prod.website-files.com/6188a89516ba2d18dfc2dcd4/651144cdf79f97f73b5e1036_Real%20Estate%20Agency%20Automation%20Blog%20Cover-p-1080.webp" width="600px"/>
+              <img src="https://cdn.prod.website-files.com/6188a89516ba2d18dfc2dcd4/651144cdf79f97f73b5e1036_Real%20Estate%20Agency%20Automation%20Blog%20Cover-p-1080.webp" width="400px"/>
             </Grid>
           </Grid>
         </Container>
 
         <HomeSlider />
+        <PopUp/>
       </Layout>
     </div>
   );
