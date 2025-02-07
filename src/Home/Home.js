@@ -13,11 +13,13 @@ import img1 from "./home.png";
 import img2 from "../Images/slide2.jpeg";
 import img3 from "../Images/slide3.jpeg";
 import PopUp from "./PopUp";
+import { useMediaQuery } from "@mui/material";
 
 function Home() {
+   const isSmallScreen = useMediaQuery("(max-width:600px)");
   
   const sliderSettings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1, // Show 3 cards at once
@@ -126,13 +128,14 @@ function Home() {
               </Typography>
             </Grid>
             <Grid size={{ xs: 12, md: 6 }}>
-              <img src="https://cdn.prod.website-files.com/6188a89516ba2d18dfc2dcd4/651144cdf79f97f73b5e1036_Real%20Estate%20Agency%20Automation%20Blog%20Cover-p-1080.webp" width="400px"/>
+              <img src="https://cdn.prod.website-files.com/6188a89516ba2d18dfc2dcd4/651144cdf79f97f73b5e1036_Real%20Estate%20Agency%20Automation%20Blog%20Cover-p-1080.webp" width={isSmallScreen ? "300px" : "550px"}/>
+             
             </Grid>
           </Grid>
         </Container>
 
         <HomeSlider />
-        <PopUp/>
+        <PopUp  width={isSmallScreen ? "300px" : "400px"}/>
       </Layout>
     </div>
   );
