@@ -86,11 +86,9 @@ function Home() {
                   Mission:
                 </Typography>
                 <Typography variant="body1">
-                  To empower learners with the knowledge and skills to design,
-                  program, and implement efficient and innovative industrial
-                  automation solutions using PLCs,SCADA,HMI,Robotics ,Autocad &
-                  Eplan driving the future of smart manufacturing and
-                  intelligent systems.
+                  Our mission is to provide high-quality training and education in automation technologies, including PLC, HMI, SCADA, IoT, and more. We're committed to helping
+our students and clients stay up-to-date with the latest advancements in automation and achieve their career goals.
+
                 </Typography>
               </Grid>
             </Grid>
