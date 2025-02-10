@@ -12,7 +12,7 @@ const testimonials = [
     name: " Industry expertise :",
 
     message:
-      " Our instructors have years of experience in automation and are experts in their field."
+      "Our instructors have years of experience in automation and are experts in their field."
 
   },
   {
@@ -173,7 +173,7 @@ const Testimonials = () => {
             marginBottom: "15px",
           }}
         >
-          Why Choose Us ?
+          Why Choose Us Upskill Automation?
         </Typography>
         {/*  
         <Typography
