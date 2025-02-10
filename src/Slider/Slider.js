@@ -12,7 +12,8 @@ const testimonials = [
     name: "Industry-Relevant Skills ",
 
     message:
-      "Learn the latest technologies used in automation, including PLC programming, SCADA systems, HMI design, Robotics, and AutoCAD Automation.",
+      " Industry expertise: Our instructors have years of experience in automation and are experts in their field."
+
   },
   {
     name: "Real-World Experience ",
