@@ -152,7 +152,7 @@ import MenuItem from "@mui/material/MenuItem";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import Logo from "../Images/logo.jpeg";
-
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -290,7 +290,7 @@ function Header() {
   <InstagramIcon />
 </IconButton>
 " target="_blank" rel="noopener noreferrer">
-  <InstagramIcon />
+  <LinkedInIcon />
 </IconButton>
 
           </Box>
