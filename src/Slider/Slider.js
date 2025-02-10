@@ -25,8 +25,7 @@ const testimonials = [
     name: "Flexible learning options :",
 
     message:
-      "We offer flexible learning options, including online and in-person training, to fit our students' busy schedules.
-",
+      "We offer flexible learning options, including online and in-person training, to fit our students' busy schedules."
   },
    {
     name: "Career support :",
