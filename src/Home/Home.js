@@ -73,10 +73,8 @@ function Home() {
                   Vision:
                 </Typography>
                 <Typography variant="body1">
-                  To become the global leader in PLCs,SCADA,HMI,Robotics
-                  ,Autocad & Eplan education, fostering a new generation of
-                  automation experts who revolutionize industries with
-                  sustainable, scalable, and cuttingedge control technologies.
+                 At Upskill Automation, our vision is to be the leading provider of automation training and education, empowering individuals and organizations to succeed in the
+rapidly evolving field of automation.
                 </Typography>
               </Grid>
 
