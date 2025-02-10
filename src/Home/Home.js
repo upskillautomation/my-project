@@ -97,7 +97,7 @@ our students and clients stay up-to-date with the latest advancements in automat
             {/* Vision Section */}
             <Grid size={{ xs: 12, md: 6 }}>
               <Typography variant="h4" component="h2" sx={{ mb: 2 }}>
-                About Us:
+                About Us :
               </Typography>
               <Typography variant="body1">
                 At Upskill Automation, we're dedicated to empowering individuals and organizations with the skills and knowledge needed to succeed in the rapidly evolving field
