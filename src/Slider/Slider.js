@@ -9,23 +9,24 @@ import "slick-carousel/slick/slick-theme.css";
 
 const testimonials = [
   {
-    name: "Industry-Relevant Skills ",
+    name: " Industry expertise :",
 
     message:
-      " Industry expertise: Our instructors have years of experience in automation and are experts in their field."
+      " Our instructors have years of experience in automation and are experts in their field."
 
   },
   {
-    name: "Real-World Experience ",
+    name: "Hands-on training : ",
 
     message:
-      "Phasellus aliquam quis lorem amet dapibus feugiat vitae purus vitae efficitur. Vestibulum sed elit id orci rhoncus ultricies. Morbi vitae semper consequat ipsum semper quam.",
+      "Our courses include hands-on training and practical exercises to help our students gain real-world experience",
   },
   {
-    name: "Industry Partnerships",
+    name: "- Flexible learning options :",
 
     message:
-      "Phasellus aliquam quis lorem amet dapibus feugiat vitae purus vitae efficitur. Vestibulum sed elit id orci rhoncus ultricies. Morbi vitae semper consequat ipsum semper quam.",
+      "We offer flexible learning options, including online and in-person training, to fit our students' busy schedules.
+",
   },
 ];
 
