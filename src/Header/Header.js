@@ -289,9 +289,11 @@ function Header() {
 <IconButton color="inherit" component="a" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
   <InstagramIcon />
 </IconButton>
-" target="_blank" rel="noopener noreferrer">
+
+<IconButton color="inherit" component="a" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
   <LinkedInIcon />
 </IconButton>
+
 
           </Box>
         </Toolbar>
