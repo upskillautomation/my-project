@@ -8,6 +8,7 @@ import {
   CardContent,
   CardMedia,
 } from "@mui/material";
+import { useMediaQuery } from "@mui/material";
 
 // Sample data for the cards
 const cardData = [
@@ -48,6 +49,7 @@ const cardData = [
   },
 ];
 export const Career = () => {
+  const isSmallScreen = useMediaQuery("(max-width:600px)");
   return (
     <Layout>
       <Container
@@ -114,7 +116,8 @@ export const Career = () => {
           >
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPLpZyqWalCZnb0xUGCjWwHvqWyPrCbtkskQ&s"
-              width="600px"
+              // width="550px"
+              width={isSmallScreen ? "300px" : "550px"}
             />
           </Grid>
         </Grid>
@@ -198,7 +201,8 @@ export const Career = () => {
           >
             <img
               src="https://www.haworth.com/content/dam/haworth-com/global/about/careers/intl/haworth-career-group-team-cut.jpg"
-              width="550px"
+              // width="550px"
+              width={isSmallScreen ? "300px" : "550px"}
             />
           </Grid>
           <Grid

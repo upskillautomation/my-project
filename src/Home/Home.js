@@ -13,11 +13,13 @@ import img1 from "./home.png";
 import img2 from "../Images/slide2.jpeg";
 import img3 from "../Images/slide3.jpeg";
 import PopUp from "./PopUp";
+import { useMediaQuery } from "@mui/material";
 
 function Home() {
+   const isSmallScreen = useMediaQuery("(max-width:600px)");
   
   const sliderSettings = {
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1, // Show 3 cards at once
@@ -71,10 +73,8 @@ function Home() {
                   Vision:
                 </Typography>
                 <Typography variant="body1">
-                  To become the global leader in PLCs,SCADA,HMI,Robotics
-                  ,Autocad & Eplan education, fostering a new generation of
-                  automation experts who revolutionize industries with
-                  sustainable, scalable, and cuttingedge control technologies.
+                 At Upskill Automation, our vision is to be the leading provider of automation training and education, empowering individuals and organizations to succeed in the
+rapidly evolving field of automation.
                 </Typography>
               </Grid>
 
@@ -84,11 +84,9 @@ function Home() {
                   Mission:
                 </Typography>
                 <Typography variant="body1">
-                  To empower learners with the knowledge and skills to design,
-                  program, and implement efficient and innovative industrial
-                  automation solutions using PLCs,SCADA,HMI,Robotics ,Autocad &
-                  Eplan driving the future of smart manufacturing and
-                  intelligent systems.
+                  Our mission is to provide high-quality training and education in automation technologies, including PLC, HMI, SCADA, IoT, and more. We're committed to helping
+our students and clients stay up-to-date with the latest advancements in automation and achieve their career goals.
+
                 </Typography>
               </Grid>
             </Grid>
@@ -99,40 +97,31 @@ function Home() {
             {/* Vision Section */}
             <Grid size={{ xs: 12, md: 6 }}>
               <Typography variant="h4" component="h2" sx={{ mb: 2 }}>
-                About Us:
+                About Us :
               </Typography>
               <Typography variant="body1">
-                At PLCs,SCADA,HMI,Robotics ,Autocad & Eplan Course program, we
-                are passionate about empowering individuals and organizations to
-                thrive in the era of Industry. <br />
-                <br />
-                Our comprehensive PLCs,SCADA,HMI,Robotics ,Autocad & Eplan
-                training programs are designed to provide hands-on experience
-                and in-depth knowledge in industrial automation and control
-                systems.
-                <br />
-                <br />
-                With a team of seasoned automation experts and educators, we aim
-                to bridge the gap between theoretical learning and real-world
-                application.
-                <br />
-                <br /> Whether you're a beginner or a professional looking to
-                upskill, our courses are tailored to meet diverse learning
-                needs, from mastering the basics of PLCs,SCADA,HMI,Robotics
-                ,Autocad & Eplan programming to exploring advanced control
-                strategies. Join us on a journey to unlock your potential and
-                shape the future of smart manufacturing and intelligent systems.
-                Together, let's innovate, automate, and lead.
+                At Upskill Automation, we're dedicated to empowering individuals and organizations with the skills and knowledge needed to succeed in the rapidly evolving field
+of automation.
+basic objective to impart training of Cutting-edge Industrial Automation Technologies to fresh engineers for bridging the demand-supply gap of ever growing
+demand of Industrial Automation Engineers and to enhance domain knowledge of working professionals with the advancement in this domain.
+Upskill provides apt and advanced solutions to enable - empower and enrich candidates with various training programs that cover a huge array of specialties in the
+technical communication and behavioral aspects of working in a company.
+With a team of seasoned automation experts and educators, we aim to bridge the gap between theoretical learning and real-world application.
+Whether you're a beginner or a professional looking to upskill, our courses are tailored to meet diverse learning needs, from mastering the basics of
+PLCs,SCADA,HMI,Robotics ,Autocad & Eplan programming to exploring advanced control strategies. Join us on a journey to unlock your potential and shape the
+future of smart manufacturing and intelligent systems. Together, let's innovate, automate, and lead.
+
               </Typography>
             </Grid>
             <Grid size={{ xs: 12, md: 6 }}>
-              <img src="https://cdn.prod.website-files.com/6188a89516ba2d18dfc2dcd4/651144cdf79f97f73b5e1036_Real%20Estate%20Agency%20Automation%20Blog%20Cover-p-1080.webp" width="400px"/>
+              <img src="https://cdn.prod.website-files.com/6188a89516ba2d18dfc2dcd4/651144cdf79f97f73b5e1036_Real%20Estate%20Agency%20Automation%20Blog%20Cover-p-1080.webp" width={isSmallScreen ? "300px" : "550px"}/>
+             
             </Grid>
           </Grid>
         </Container>
 
         <HomeSlider />
-        <PopUp/>
+        <PopUp  width={isSmallScreen ? "300px" : "400px"}/>
       </Layout>
     </div>
   );

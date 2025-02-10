@@ -152,7 +152,7 @@ import MenuItem from "@mui/material/MenuItem";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import Logo from "../Images/logo.jpeg";
-
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -282,12 +282,20 @@ function Header() {
               ml: 2,
             }}
           >
-            <IconButton color="inherit">
-              <FacebookIcon />
-            </IconButton>
-            <IconButton color="inherit">
-              <InstagramIcon />
-            </IconButton>
+          
+
+<IconButton color="inherit" component="a" href="https://www.instagram.com/upskillautomation?igsh=b2l0bTBpeHU2dXJv" target="_blank" rel="noopener noreferrer">
+  <InstagramIcon />
+</IconButton>
+<IconButton color="inherit" component="a" href="https://www.instagram.com/upskillautomation?igsh=b2l0bTBpeHU2dXJv" target="_blank" rel="noopener noreferrer">
+  <InstagramIcon />
+</IconButton>
+
+<IconButton color="inherit" component="a" href="https://www.linkedin.com/in/upskill-automation-institute-a0581334b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">
+  <LinkedInIcon />
+</IconButton>
+
+
           </Box>
         </Toolbar>
       </Container>

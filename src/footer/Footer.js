@@ -126,7 +126,7 @@ const MLFooter = () => {
                 <LocationOn color="primary" />
               </IconButton>
               <Typography variant="body1">
-                Kolhapur, Maharashtra, India
+                1st Floor, Royal Prestige, Shahupuri , Kolhapur, Near vardhan Hospital.
               </Typography>
             </Box>
           </Grid>

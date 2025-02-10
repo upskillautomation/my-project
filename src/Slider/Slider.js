@@ -9,22 +9,29 @@ import "slick-carousel/slick/slick-theme.css";
 
 const testimonials = [
   {
-    name: "Industry-Relevant Skills ",
+    name: " Industry expertise :",
 
     message:
-      "Learn the latest technologies used in automation, including PLC programming, SCADA systems, HMI design, Robotics, and AutoCAD Automation.",
+      "Our instructors have years of experience in automation and are experts in their field."
+
   },
   {
-    name: "Real-World Experience ",
+    name: "Hands-on training : ",
 
     message:
-      "Phasellus aliquam quis lorem amet dapibus feugiat vitae purus vitae efficitur. Vestibulum sed elit id orci rhoncus ultricies. Morbi vitae semper consequat ipsum semper quam.",
+      "Our courses include hands-on training and practical exercises to help our students gain real-world experience",
   },
   {
-    name: "Industry Partnerships",
+    name: "Flexible learning options :",
 
     message:
-      "Phasellus aliquam quis lorem amet dapibus feugiat vitae purus vitae efficitur. Vestibulum sed elit id orci rhoncus ultricies. Morbi vitae semper consequat ipsum semper quam.",
+      "We offer flexible learning options, including online and in-person training, to fit our students' busy schedules."
+  },
+   {
+    name: "Career support :",
+
+    message:
+      "We provide career support and guidance to our students, helping them achieve their career goals in automation.",
   },
 ];
 
@@ -37,6 +44,7 @@ const TestimonialCard = ({ name, title, message, image, rating }) => {
     textAlign: "left",
     transition: "transform 0.3s ease",
     margin: "5px",
+    height:'350px'
   };
 
   const headerStyle = {
@@ -62,7 +70,7 @@ const TestimonialCard = ({ name, title, message, image, rating }) => {
   };
 
   const titleStyle = {
-    color: "#644222", // Color value should be a string
+    //color: "#644222", // Color value should be a string
 
     fontSize: "1rem",
     marginTop: "5px",
@@ -165,7 +173,7 @@ const Testimonials = () => {
             marginBottom: "15px",
           }}
         >
-          Why Choose Us ?
+          Why Choose Us Upskill Automation?
         </Typography>
         {/*  
         <Typography
