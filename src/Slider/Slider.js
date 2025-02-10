@@ -22,11 +22,17 @@ const testimonials = [
       "Our courses include hands-on training and practical exercises to help our students gain real-world experience",
   },
   {
-    name: "- Flexible learning options :",
+    name: "Flexible learning options :",
 
     message:
       "We offer flexible learning options, including online and in-person training, to fit our students' busy schedules.
 ",
+  },
+   {
+    name: "Career support :",
+
+    message:
+      "We provide career support and guidance to our students, helping them achieve their career goals in automation.",
   },
 ];
 
