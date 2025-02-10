@@ -62,7 +62,7 @@ const TestimonialCard = ({ name, title, message, image, rating }) => {
   };
 
   const titleStyle = {
-    color: "#644222", // Color value should be a string
+    //color: "#644222", // Color value should be a string
 
     fontSize: "1rem",
     marginTop: "5px",
