@@ -100,27 +100,17 @@ our students and clients stay up-to-date with the latest advancements in automat
                 About Us:
               </Typography>
               <Typography variant="body1">
-                At PLCs,SCADA,HMI,Robotics ,Autocad & Eplan Course program, we
-                are passionate about empowering individuals and organizations to
-                thrive in the era of Industry. <br />
-                <br />
-                Our comprehensive PLCs,SCADA,HMI,Robotics ,Autocad & Eplan
-                training programs are designed to provide hands-on experience
-                and in-depth knowledge in industrial automation and control
-                systems.
-                <br />
-                <br />
-                With a team of seasoned automation experts and educators, we aim
-                to bridge the gap between theoretical learning and real-world
-                application.
-                <br />
-                <br /> Whether you're a beginner or a professional looking to
-                upskill, our courses are tailored to meet diverse learning
-                needs, from mastering the basics of PLCs,SCADA,HMI,Robotics
-                ,Autocad & Eplan programming to exploring advanced control
-                strategies. Join us on a journey to unlock your potential and
-                shape the future of smart manufacturing and intelligent systems.
-                Together, let's innovate, automate, and lead.
+                At Upskill Automation, we're dedicated to empowering individuals and organizations with the skills and knowledge needed to succeed in the rapidly evolving field
+of automation.
+basic objective to impart training of Cutting-edge Industrial Automation Technologies to fresh engineers for bridging the demand-supply gap of ever growing
+demand of Industrial Automation Engineers and to enhance domain knowledge of working professionals with the advancement in this domain.
+Upskill provides apt and advanced solutions to enable - empower and enrich candidates with various training programs that cover a huge array of specialties in the
+technical communication and behavioral aspects of working in a company.
+With a team of seasoned automation experts and educators, we aim to bridge the gap between theoretical learning and real-world application.
+Whether you're a beginner or a professional looking to upskill, our courses are tailored to meet diverse learning needs, from mastering the basics of
+PLCs,SCADA,HMI,Robotics ,Autocad & Eplan programming to exploring advanced control strategies. Join us on a journey to unlock your potential and shape the
+future of smart manufacturing and intelligent systems. Together, let's innovate, automate, and lead.
+
               </Typography>
             </Grid>
             <Grid size={{ xs: 12, md: 6 }}>
