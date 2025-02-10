@@ -45,6 +45,7 @@ const TestimonialCard = ({ name, title, message, image, rating }) => {
     textAlign: "left",
     transition: "transform 0.3s ease",
     margin: "5px",
+    height:'350px'
   };
 
   const headerStyle = {
