@@ -285,7 +285,13 @@ function Header() {
             <IconButton color="inherit" component="a" href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
   <FacebookIcon />
 </IconButton>
+<IconButton color="inherit" component="a" href="<IconButton color="inherit" component="a" href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+  <FacebookIcon />
+</IconButton>
 <IconButton color="inherit" component="a" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+  <InstagramIcon />
+</IconButton>
+" target="_blank" rel="noopener noreferrer">
   <InstagramIcon />
 </IconButton>
 
