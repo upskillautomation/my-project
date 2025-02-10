@@ -282,12 +282,13 @@ function Header() {
               ml: 2,
             }}
           >
-            <IconButton color="inherit">
-              <FacebookIcon />
-            </IconButton>
-            <IconButton color="inherit">
-              <InstagramIcon />
-            </IconButton>
+            <IconButton color="inherit" component="a" href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
+  <FacebookIcon />
+</IconButton>
+<IconButton color="inherit" component="a" href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
+  <InstagramIcon />
+</IconButton>
+
           </Box>
         </Toolbar>
       </Container>
