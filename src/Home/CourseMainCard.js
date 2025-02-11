@@ -9,7 +9,7 @@ import {
   CardMedia,
 } from "@mui/material";
 import scad from "../Images/scad.png";
-import SCADA from "../Images/scada-security.jpg";
+
 import img2 from "../Images/slide2.jpeg"
 import img3 from "../Images/slide3.jpeg";
 import img1 from "../Images/img1.jpeg";
