@@ -173,7 +173,7 @@ const Testimonials = () => {
             marginBottom: "15px",
           }}
         >
-          Why Choose Us Upskill Automation ?
+          Why Choose Us Upskill Automation?
         </Typography>
         {/*  
         <Typography
