@@ -156,14 +156,12 @@ const MLFooter = () => {
           </Grid>
         </Grid>
 
-        <Box sx={{ mt: 6, textAlign: "center", position: "relative" }}>
+        <Box sx={{ mt: 2, textAlign: "center", position: "relative" }}>
           <Typography variant="body2" sx={{ opacity: 0.8 }}>
             © {new Date().getFullYear()} Upskill Automation Institute. All
             rights reserved.
           </Typography>
-          <Box
-            sx={{ mt: 2, display: "flex", justifyContent: "center", gap: 2 }}
-          ></Box>
+          
         </Box>
 
         <ScrollTopButton

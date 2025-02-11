@@ -18,7 +18,7 @@ const ContactUs = () => {
         <Grid container spacing={4}>
           {/* Contact Details Section */}
           <Grid size={{ xs: 12, md: 6 }}>
-            <Card sx={{ p: 2, backgroundColor: "#ffffff" }}>
+            <Card sx={{ p: 2, backgroundColor: "#ffffff", height: "400px" }}>
               <CardContent>
                 <Typography variant="h4" gutterBottom>
                   Contact Us
@@ -64,7 +64,7 @@ const ContactUs = () => {
 
           {/* Inquiry Form Section */}
           <Grid size={{ xs: 12, md: 6 }}>
-            <Card sx={{ p: 2 }}>
+            <Card sx={{ p: 2, height: "400px" }}>
               <CardContent>
                 <Typography variant="h5" gutterBottom>
                   Send Us an Inquiry
