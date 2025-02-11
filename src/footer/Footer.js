@@ -110,7 +110,7 @@ const MLFooter = () => {
     },
     {
       title: "Email",
-      links: ["info.upskillautomation.com"],
+      links: ["info@upskillautomation.com"],
     },
   ];
 

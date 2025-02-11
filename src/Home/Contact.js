@@ -39,7 +39,7 @@ const ContactUs = () => {
                       <LocationOn color="primary" />
                     </IconButton>
                     <Typography variant="body1">
-                Kolhapur, Maharashtra, India
+                    1st Floor, Royal Prestige, Shahupuri , Kolhapur, Near vardhan Hospital.
                      
                     </Typography>
                   </Box>
@@ -48,7 +48,7 @@ const ContactUs = () => {
                       <Email color="primary" />
                     </IconButton>
                     <Typography variant="body1">
-                      info.upskillautomation.com
+                      info@upskillautomation.com
                     </Typography>
                   </Box>
                   <Box display="flex" alignItems="center">
