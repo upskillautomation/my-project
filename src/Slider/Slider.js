@@ -44,7 +44,7 @@ const TestimonialCard = ({ name, title, message, image, rating }) => {
     textAlign: "left",
     transition: "transform 0.3s ease",
     margin: "5px",
-    height:'350px'
+    height:'300px'
   };
 
   const headerStyle = {
@@ -173,7 +173,7 @@ const Testimonials = () => {
             marginBottom: "15px",
           }}
         >
-          Why Choose Us ?
+          Why Choose Us Upskill Automation ?
         </Typography>
     
        
