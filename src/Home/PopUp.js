@@ -8,7 +8,7 @@ import {
   Typography,
 } from "@mui/material";
 
-import popUpImg from "../Images/popup.jpeg";
+import popUpImg from "../Images/popup.jpg";
 import { Link } from "react-router-dom";
 const PopupExample = () => {
   const [open, setOpen] = useState(false);
@@ -33,7 +33,7 @@ const PopupExample = () => {
       </Button> */}
 
       {/* Popup Component */}
-      <Dialog open={open} onClose={handleClose}>
+      <Dialog open={open} onClose={handleClose} sx={{ overflowX: "hidden" }}>
         <DialogTitle>
           
           {/* Close Button */}
@@ -49,7 +49,7 @@ const PopupExample = () => {
           </Button>
         </DialogTitle>
         <DialogContent component={Link} to="/contact">
-          <img src={popUpImg} alt="noimg" width="400px" height="550px"/>
+          <img src={popUpImg} alt="noimg" width="380px" height="420px"/>
         </DialogContent>
         <DialogActions>
           {/* Footer Actions */}
