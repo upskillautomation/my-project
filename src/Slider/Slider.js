@@ -116,7 +116,7 @@ const TestimonialCard = ({ name, title, message, image, rating }) => {
 
 const Testimonials = () => {
   const sliderSettings = {
-    dots: false,
+    dots: true,
     infinite: true,
     speed: 500,
     slidesToShow: 3, // Show 3 cards at once

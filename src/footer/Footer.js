@@ -150,7 +150,7 @@ const MLFooter = () => {
                 <Email color="primary" />
               </IconButton>
               <Typography variant="body1">
-                info.upskillautomation.com
+                info@upskillautomation.com
               </Typography>
             </Box>
           </Grid>
