@@ -173,17 +173,10 @@ const Testimonials = () => {
             marginBottom: "15px",
           }}
         >
-          Why Choose Us Upskill Automation?
+          Why Choose Us Upskill Automation ?
         </Typography>
-        {/*  
-        <Typography
-          variant="body1"
-          align="center"
-          paragraph
-          sx={{ mb: 4, maxWidth: '600px', mx: 'auto' }}
-        >
-          Proin consectetur non dolor vitae pulvinar. Pellentesque sollicitudin dolor eget neque viverra, sed interdum metus interdum. Cras lobortis pulvinar dolor, sit amet ullamcorper dolor iaculis vel.
-        </Typography> */}
+    
+       
 
         <Slider {...sliderSettings}>
           {testimonials.map((testimonial, index) => (
