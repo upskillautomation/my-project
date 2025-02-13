@@ -12,7 +12,7 @@ import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
-import Logo from "../Images/logo.jpeg";
+import Logo from "../Images/UPSKILLLOGO.png";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import { Link } from "react-router-dom";
 
@@ -39,6 +39,7 @@ function Header() {
               display: { xs: "flex", md: "none" },
               alignItems: "center",
               mr: 2,
+              p: 2,
             }}
           >
             <img src={Logo} alt="logo" width="50px" height="50px" />

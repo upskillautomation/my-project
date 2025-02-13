@@ -49,14 +49,9 @@ const PopupExample = () => {
           </Button>
         </DialogTitle>
         <DialogContent component={Link} to="/contact">
-          <img src={popUpImg} alt="noimg" width="380px" height="420px"/>
+          <img src={popUpImg} alt="noimg" width="380px" height="450px"/>
         </DialogContent>
-        <DialogActions>
-          {/* Footer Actions */}
-          <Button onClick={handleClose} color="secondary">
-            Close
-          </Button>
-        </DialogActions>
+        
       </Dialog>
     </div>
   );

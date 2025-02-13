@@ -63,7 +63,7 @@ export const Course = () => {
           >
             <CardMedia
               component="img"
-              height="250"
+              height="350"
               image={card.img}
               alt={card.title}
             />
