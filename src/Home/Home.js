@@ -102,7 +102,7 @@ the latest advancements in automation and achieve their career goals.
               <Typography variant="h4" component="h2" sx={{ mb: 2 }}>
                 About Us :
               </Typography>
-              <Typography variant="body1">
+              <Typography variant="body1" sx={{textAlign:"justify"}}>
               At Upskill Automation, we're dedicated to empowering individuals and
 organizations with the skills and knowledge needed to succeed in the
 rapidly evolving field of automation.<br/><br/>

@@ -11,7 +11,9 @@
   font-weight: 400;
   font-style: normal;
 }
-
+body {
+  font-family: 'Poppins', sans-serif;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
