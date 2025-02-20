@@ -82,30 +82,30 @@ export const Career = () => {
               Graduates of our program can pursue roles such as:
             </Typography>
            
-            <ul>
-              <li>
+            <ul style={{color:'black'}}>
+              <li style={{color:'black'}}>
                 <Typography variant="h7" sx={{color:'black'}}> Automation Engineer . </Typography>
               </li>
-              <li>
+              <li style={{color:'black'}}>
                 <Typography variant="h7" sx={{color:'black'}}> PLC Programmer . </Typography>
               </li>
-              <li>
+              <li >
                 <Typography variant="h7" sx={{color:'black'}}> SCADA Engineer .</Typography>
               </li>
-              <li>
+              <li style={{color:'black'}}>>
                 <Typography variant="h7" sx={{color:'black'}}>
                   Robotics Engineer / Robotics Systems Integrator .
                 </Typography>
               </li>
-              <li>
+              <li style={{color:'black'}}>
                 <Typography variant="h7" sx={{color:'black'}}> Control Systems Engineer . </Typography>
               </li>
-              <li>
+              <li style={{color:'black'}}>
                 <Typography variant="h7" sx={{color:'black'}}>
                   Maintenance Engineer (Automation Systems) .
                 </Typography>
               </li>
-              <li>
+              <li style={{color:'black'}}>
                 <Typography variant="h7" sx={{color:'black'}}>
                   Control Panel Designer (AutoCAD) .
                 </Typography>
