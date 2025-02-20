@@ -105,7 +105,7 @@ the latest advancements in automation and achieve their career goals.
               <Typography variant="body1">
               At Upskill Automation, we're dedicated to empowering individuals and
 organizations with the skills and knowledge needed to succeed in the
-rapidly evolving field of automatio
+rapidly evolving field of automation.
 Our basic objective is to provide training of Cutting-edge Industrial
 Automation Technologies to fresh engineers for bridging the
 demand-supply gap of ever growing demand of Industrial Automation
