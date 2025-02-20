@@ -12,7 +12,7 @@ const testimonials = [
     name: " Industry expertise :",
 
     message:
-      "Our instructors have years of experience in automation and are experts in their field."
+      "Our instructors have 9 years of experience in automation and are experts in their field."
 
   },
   {
@@ -25,13 +25,13 @@ const testimonials = [
     name: "Flexible learning options :",
 
     message:
-      "We offer flexible learning options, including online and in-person training, to fit our students' busy schedules."
+      "We offer flexible learning options, including online and in-person training, to fit our students  busy schedules."
   },
    {
-    name: "Career support :",
+    name: "Placement support :",
 
     message:
-      "We provide career support and guidance to our students, helping them achieve their career goals in automation.",
+      "We provide 100% Placement support and guidance to our students, helping them achieve their career goals in automation.",
   },
 ];
 
