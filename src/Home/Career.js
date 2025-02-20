@@ -9,7 +9,8 @@ import {
   CardMedia,
 } from "@mui/material";
 import { useMediaQuery } from "@mui/material";
-import img from "../images/IMG-20250213-WA0001.jpg"
+import img from "../Images/IMG-20250213-WA0001.jpg"
+import img2 from "../Images/IMG-20250213-WA0002.jpg"
 
 // Sample data for the cards
 const cardData = [
@@ -51,6 +52,8 @@ const cardData = [
 ];
 export const Career = () => {
   const isSmallScreen = useMediaQuery("(max-width:600px)");
+
+ 
   return (
     <Layout>
       <Container
@@ -202,7 +205,8 @@ src={img}
             }}
           >
             <img
-              src="https://www.haworth.com/content/dam/haworth-com/global/about/careers/intl/haworth-career-group-team-cut.jpg"
+              //src="https://www.haworth.com/content/dam/haworth-com/global/about/careers/intl/haworth-career-group-team-cut.jpg"
+              src={img2}
               // width="550px"
               width={isSmallScreen ? "300px" : "550px"}
             />
