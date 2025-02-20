@@ -131,18 +131,22 @@ const MLFooter = () => {
             </Box>
           </Grid>
           <Grid size={{ xs: 12, md: 4 }}>
-            <Typography>Contact</Typography>
+            <Typography>Contact :</Typography>
             <br />
 
             <Box display="flex" alignItems="center">
               <IconButton>
                 <Phone color="primary" />
-              </IconButton>
+              </IconButton> <br/>
               <Typography variant="body1">906 715 1699</Typography>
+              <IconButton>
+                <Phone color="primary" />
+              </IconButton>
+              <Typography variant="body1">888 873 7294</Typography>
             </Box>
           </Grid>
           <Grid size={{ xs: 12, md: 4 }}>
-            <Typography>Email</Typography>
+            <Typography>Email :</Typography>
             <br />
 
             <Box display="flex" alignItems="center" mb={2}>
@@ -156,7 +160,7 @@ const MLFooter = () => {
           </Grid>
         </Grid>
 
-        <Box sx={{ mt: 2, textAlign: "center", position: "relative" }}>
+        <Box sx={{ mt: 2, textAlign: "right", position: "relative" }}>
           <Typography variant="body2" sx={{ opacity: 0.8 }}>
             © {new Date().getFullYear()} Upskill Automation Institute. All
             rights reserved.

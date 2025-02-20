@@ -86,30 +86,37 @@ export const Career = () => {
               <li style={{color:'black'}}>
                 <Typography variant="h7" sx={{color:'black'}}> Automation Engineer. </Typography>
               </li>
+              <br/>
               <li style={{color:'black'}}>
                 <Typography variant="h7" sx={{color:'black'}}> PLC Programmer. </Typography>
               </li>
+              <br/>
               <li >
                 <Typography variant="h7" sx={{color:'black'}}> SCADA Engineer.</Typography>
               </li>
+              <br/>
               <li style={{color:'black'}}>
                 <Typography variant="h7" sx={{color:'black'}}>
                   Robotics Engineer / Robotics Systems Integrator.
                 </Typography>
               </li>
+              <br/>
               <li style={{color:'black'}}>
                 <Typography variant="h7" sx={{color:'black'}}> Control Systems Engineer. </Typography>
               </li>
+              <br/>
               <li style={{color:'black'}}>
                 <Typography variant="h7" sx={{color:'black'}}>
                   Maintenance Engineer. (Automation Systems) 
                 </Typography>
               </li>
+              <br/>
               <li style={{color:'black'}}>
                 <Typography variant="h7" sx={{color:'black'}}>
                   Control Panel Designer. (AutoCAD, EPLAN) 
                 </Typography>
               </li>
+              <br/>
             </ul>
           </Grid>
           <Grid
