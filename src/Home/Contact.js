@@ -168,7 +168,7 @@ const ContactUs = () => {
                     <IconButton>
                       <Phone color="primary" />
                     </IconButton>
-                    <Typography variant="body1">906 715 1699</Typography>
+                    <Typography variant="body1">906 715 1699 / 888 873 7294</Typography>
                   </Box>
                 </Box>
               </CardContent>

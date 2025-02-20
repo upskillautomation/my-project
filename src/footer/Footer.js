@@ -137,8 +137,13 @@ const MLFooter = () => {
             <Box display="flex" alignItems="center">
               <IconButton>
                 <Phone color="primary" />
-              </IconButton> <br/>
+              </IconButton> <br/><br/>
               <Typography variant="body1">906 715 1699</Typography>
+             
+            </Box>
+
+            <Box display="flex" alignItems="center">
+             
               <IconButton>
                 <Phone color="primary" />
               </IconButton>
