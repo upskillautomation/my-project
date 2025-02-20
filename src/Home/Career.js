@@ -84,30 +84,30 @@ export const Career = () => {
            
             <ul style={{color:'black', marginBottom:"5px"}}>
               <li style={{color:'black'}}>
-                <Typography variant="h7" sx={{color:'black'}}> Automation Engineer . </Typography>
+                <Typography variant="h7" sx={{color:'black'}}> Automation Engineer. </Typography>
               </li>
               <li style={{color:'black'}}>
-                <Typography variant="h7" sx={{color:'black'}}> PLC Programmer . </Typography>
+                <Typography variant="h7" sx={{color:'black'}}> PLC Programmer. </Typography>
               </li>
               <li >
-                <Typography variant="h7" sx={{color:'black'}}> SCADA Engineer .</Typography>
+                <Typography variant="h7" sx={{color:'black'}}> SCADA Engineer.</Typography>
               </li>
               <li style={{color:'black'}}>
                 <Typography variant="h7" sx={{color:'black'}}>
-                  Robotics Engineer / Robotics Systems Integrator .
+                  Robotics Engineer / Robotics Systems Integrator.
                 </Typography>
               </li>
               <li style={{color:'black'}}>
-                <Typography variant="h7" sx={{color:'black'}}> Control Systems Engineer . </Typography>
+                <Typography variant="h7" sx={{color:'black'}}> Control Systems Engineer. </Typography>
               </li>
               <li style={{color:'black'}}>
                 <Typography variant="h7" sx={{color:'black'}}>
-                  Maintenance Engineer . (Automation Systems) 
+                  Maintenance Engineer. (Automation Systems) 
                 </Typography>
               </li>
               <li style={{color:'black'}}>
                 <Typography variant="h7" sx={{color:'black'}}>
-                  Control Panel Designer . (AutoCAD) , (EPLAN) 
+                  Control Panel Designer. (AutoCAD, EPLAN) 
                 </Typography>
               </li>
             </ul>
