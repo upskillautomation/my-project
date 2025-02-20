@@ -27,7 +27,7 @@ export const Course = () => {
             md: 12,
           }}
         >
-          <Typography variant="h5" sx={{ color: "black", mt: 3, ml: 5 }}>
+          <Typography variant="h5" sx={{ color: "black", mt: 5, ml: 5 }}>
             {" "}
             <b>Course Details: </b>
           </Typography>
