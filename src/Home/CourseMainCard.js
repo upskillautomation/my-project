@@ -177,11 +177,12 @@ export const CourseMainCard = () => {
                 </Typography>
                 </Box>
                 <br />
+                <Box sx={{height:"100px"}}>
                 <Typography variant="h6" sx={{ color: "black" }}>
                   {" "}
                   <b>Course Duration: {card.duration}</b>
                 </Typography>
-                <br/><br/><br/>
+                </Box>
                 <Button
                   component={Link}
                   to="/course-details"
