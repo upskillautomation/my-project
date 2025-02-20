@@ -71,7 +71,7 @@ export const Course = () => {
                   <b> {card.title}</b>
                 </Typography>
                 <Typography gutterBottom variant="h6" component="div">
-                  {card.title2}
+                 <b> {card.title2}</b>
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                   {card.description}
@@ -94,7 +94,7 @@ export const Course = () => {
                 {card?.keyFeatures?.map((keyFeature, index) => (
                   <>
                     <ul>
-                      <li><b>{keyFeature}</b></li>
+                      <li>{keyFeature}</li>
                     </ul>
                   </>
                 ))}
