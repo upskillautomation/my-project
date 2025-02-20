@@ -81,7 +81,7 @@ const cardData = [
       "Other Technical Qualifications: Candidates with relevant technical or vocational training in automation or industrial control systems are also welcome.",
     ],
     img: img3,
-    Certification: "",
+   
   },
   {
     title: "Programming and Automation Essentials.",
@@ -103,7 +103,7 @@ const cardData = [
       "Anyone seeking to advance their knowledge in automation and control systems.",
     ],
     img: img1,
-    Certification: "",
+    // Certification: "",
   },
   {
     title: "SCADA Fundamentals and Application Training.",

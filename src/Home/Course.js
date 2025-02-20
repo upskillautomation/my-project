@@ -131,6 +131,7 @@ export const Course = () => {
           </Card>
         </Grid>
       </Grid>
+      <Button component={Link} to="/">Back</Button>
       </Container>
     </Layout>
   );
