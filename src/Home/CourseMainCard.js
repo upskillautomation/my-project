@@ -7,6 +7,7 @@ import {
   Card,
   CardContent,
   CardMedia,
+  Box
 } from "@mui/material";
 import scad from "../Images/scad.png";
 
@@ -172,10 +173,12 @@ export const CourseMainCard = () => {
                 alt={card.title}
               />
               <CardContent>
+              <Box sx={{height:"100px"}}>
                 <Typography variant="h6" sx={{ color: "black" }}>
                   {" "}
                   <b>Course Name:</b> {card.title}
                 </Typography>
+                </Box>
                 <br />
                 <Typography variant="h6" sx={{ color: "black" }}>
                   {" "}
