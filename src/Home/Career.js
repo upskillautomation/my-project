@@ -9,6 +9,7 @@ import {
   CardMedia,
 } from "@mui/material";
 import { useMediaQuery } from "@mui/material";
+import img from "../images/IMG-20250213-WA0001.jpg"
 
 // Sample data for the cards
 const cardData = [
@@ -115,7 +116,8 @@ export const Career = () => {
             }}
           >
             <img
-              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPLpZyqWalCZnb0xUGCjWwHvqWyPrCbtkskQ&s"
+         //src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPLpZyqWalCZnb0xUGCjWwHvqWyPrCbtkskQ&s"
+src={img}
               // width="550px"
               width={isSmallScreen ? "300px" : "550px"}
             />
