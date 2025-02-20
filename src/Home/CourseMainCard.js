@@ -147,12 +147,12 @@ export const CourseMainCard = () => {
           md: 12,
         }}
       >
-        <Typography variant="h5" sx={{ color: "black", mt: 3, ml: 5 }}>
+        <Typography variant="h5" sx={{ color: "black", mt: 5, ml: 5 }}>
           {" "}
           <b>Our Courses: </b>
         </Typography>
 
-        <br />
+       
       </Grid>
       <Grid container sx={{ p: 3 }} spacing={3}>
         {cardData?.map((card, index) => (
@@ -181,7 +181,7 @@ export const CourseMainCard = () => {
                 <br />
                 <Typography variant="h6" sx={{ color: "black" }}>
                   {" "}
-                  <b>Course Duration:</b> {card.duration}
+                  <b>Course Duration: {card.duration}</b>
                 </Typography>
                 <br/><br/>
                 <Button

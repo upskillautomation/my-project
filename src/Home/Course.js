@@ -82,19 +82,19 @@ export const Course = () => {
                   component="div"
                   sx={{ mt: 2 }}
                 >
-                  <b>Duration : </b>
-                  {card.duration}
+                  <b>Duration : 
+                  {card.duration}</b>
                 </Typography>
                 {card?.keyFeatures.length ? (
                   <Typography gutterBottom variant="h6" component="div">
-                    Key Features:
+                   <b> Key Features: </b>
                   </Typography>
                 ) : null}
 
                 {card?.keyFeatures?.map((keyFeature, index) => (
                   <>
                     <ul>
-                      <li>{keyFeature}</li>
+                      <li><b>{keyFeature}</b></li>
                     </ul>
                   </>
                 ))}
