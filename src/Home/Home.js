@@ -105,12 +105,12 @@ the latest advancements in automation and achieve their career goals.
               <Typography variant="body1">
               At Upskill Automation, we're dedicated to empowering individuals and
 organizations with the skills and knowledge needed to succeed in the
-rapidly evolving field of automation.
+rapidly evolving field of automation.<br/><br/>
 Our basic objective is to provide training of Cutting-edge Industrial
 Automation Technologies to fresh engineers for bridging the
 demand-supply gap of ever growing demand of Industrial Automation
 Engineers and to enhance domain knowledge of working
-professionals with the advancement in this domain.
+professionals with the advancement in this domain.<br/><br/>
 Upskill Automation provides advanced solutions to empower and
 enrich candidates with various training programs that cover a huge
 array of specialties in the technical communication and behavioral
@@ -120,7 +120,7 @@ theoretical learning and real-world application. Whether you're a
 beginner or a professional looking to upskill Automation, our courses
 are tailored to meet diverse learning needs, from mastering the
 basics of PLCs, SCADA, HMI, Robotics, Autocad & Eplan programming
-to exploring advanced control strategies.
+to exploring advanced control strategies.<br/><br/>
 Join us on a journey to unlock your potential and shape the future of
 smart manufacturing and intelligent systems. Together, let's innovate,
 automate and lead.
