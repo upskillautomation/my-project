@@ -133,7 +133,7 @@ export const Course = () => {
 
       </Grid>
       <Grid container>
-              <Grid size={{ xs: 12, md: 12 }} sx={{display:'flex', justifyContent:'end', mt: 5, mb:3}}>
+              <Grid size={{ xs: 12, md: 12 }} sx={{display:'flex', justifyContent:'end', mt: 1, mb:3}}>
               <Button variant="contained" component={Link} to="/course" startIcon={<ArrowBackIcon />}>
   Back
 </Button>
