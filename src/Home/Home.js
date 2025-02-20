@@ -69,10 +69,10 @@ function Home() {
             <Grid container spacing={5} sx={{border :"1px solid blue", p:10, borderRadius: 2}}>
               {/* Vision Section */}
               <Grid size={{ xs: 12, md: 6 }}>
-                <Typography variant="h4" component="h2" sx={{ mb: 2, color:black }}>
+                <Typography variant="h4" component="h2" sx={{ mb: 2, color:"black" }}>
                   Vision:
                 </Typography>
-                <Typography variant="body1" sx={{color:black}}>
+                <Typography variant="body1" sx={{color:"black"}}>
                 At Upskill Automation, our vision is to be the leading provider of
 automation training and education, empowering individuals and
 organizations to succeed in the rapidly evolving field of automation.
@@ -81,10 +81,10 @@ organizations to succeed in the rapidly evolving field of automation.
 
               {/* Mission Section */}
               <Grid size={{ xs: 12, md: 6 }}>
-                <Typography variant="h4" component="h2" sx={{ mb: 2, color:black }}>
+                <Typography variant="h4" component="h2" sx={{ mb: 2, color:"black" }}>
                   Mission:
                 </Typography>
-                <Typography variant="body1" sx={{color:black}}>
+                <Typography variant="body1" sx={{color:"black"}}>
                 Our mission is to provide high-quality training and education in
 automation technologies, including PLC, HMI, SCADA, IoT and more.
 We're committed to help our students and clients stay up-to-date with
