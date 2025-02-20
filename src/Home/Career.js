@@ -82,7 +82,7 @@ export const Career = () => {
               Graduates of our program can pursue roles such as:
             </Typography>
            
-            <ul style={{color:'black'}}>
+            <ul style={{color:'black', marginBottom:"5px"}}>
               <li style={{color:'black'}}>
                 <Typography variant="h7" sx={{color:'black'}}> Automation Engineer . </Typography>
               </li>
