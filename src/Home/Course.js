@@ -13,7 +13,7 @@ import SCADA from "../Images/scada-security.jpg";
 import { Link } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 import Container from '@mui/material/Container';
-
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 export const Course = () => {
   const location = useLocation();
@@ -133,8 +133,11 @@ export const Course = () => {
 
       </Grid>
       <Grid container>
-              <Grid size={{ xs: 12, md: 12 }} sx={{display:'flex', justifyContent:'end', mt: 5}}>
-              <Button  variant="contained" component={Link} to="/course">Back</Button>
+              <Grid size={{ xs: 12, md: 12 }} sx={{display:'flex', justifyContent:'end', mt: 5, mb:3}}>
+              <Button variant="contained" component={Link} to="/course" startIcon={<ArrowBackIcon />}>
+  Back
+</Button>
+              
               </Grid>
       </Grid>
       </Container>
