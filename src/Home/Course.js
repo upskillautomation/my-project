@@ -130,8 +130,13 @@ export const Course = () => {
             </CardContent>
           </Card>
         </Grid>
+
       </Grid>
-      <Button component={Link} to="/">Back</Button>
+      <Grid container>
+              <Grid size={{ xs: 12, md: 12 }} sx={{display:'flex', justifyContent:'end', mt: 5}}>
+              <Button  variant="contained" component={Link} to="/course">Back</Button>
+              </Grid>
+      </Grid>
       </Container>
     </Layout>
   );
