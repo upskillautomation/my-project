@@ -221,14 +221,14 @@ src={img}
             <ul>
               <li>
                 <Typography variant="h7">
-                  <b> Skill Development: </b> hands-on experience with
+                  <b> Skill Development:<br/> </b> Hands-on experience with
                   industry-standard tools and technologies.
                 </Typography>
               </li>
               <br/>
               <li>
                 <Typography variant="h7">
-                  <b> Personalized Support: </b> From resume building to
+                  <b> Personalized Support:<br/> </b> From resume building to
                   interview preparation, our placement team offers dedicated
                   support to ensure your success.
                 </Typography>
@@ -236,7 +236,7 @@ src={img}
               <br/>
               <li>
                 <Typography variant="h7">
-                  <b> Industry Connections: </b> We connect you directly with
+                  <b> Industry Connections:<br/> </b> We connect you directly with
                   top companies looking for skilled professionals in automation.
                 </Typography>
               </li>
