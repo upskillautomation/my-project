@@ -127,13 +127,10 @@ export const Course = () => {
                   </Typography>
                 ) : null}
               </CardContent>
-            </Card>
-          </Grid>
-        </Grid>
-        <Grid container sx={{ mr: 3 }}>
+              <Grid container sx={{ p: 3 }} spacing={3}>
           <Grid
             size={{ xs: 12, md: 12 }}
-            sx={{ display: "flex", justifyContent: "end", mt: -1, mb: 3 }}
+            sx={{ display: "flex", justifyContent: "end", mt: -1,  }}
           >
             <Button
               variant="contained"
@@ -145,6 +142,12 @@ export const Course = () => {
             </Button>
           </Grid>
         </Grid>
+            </Card>
+
+            
+          </Grid>
+        </Grid>
+        
       </Container>
     </Layout>
   );
