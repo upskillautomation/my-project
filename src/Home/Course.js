@@ -70,10 +70,10 @@ export const Course = () => {
                 <Typography gutterBottom variant="h5" component="div">
                   <b> {card.title}</b>
                 </Typography>
-                <Typography gutterBottom variant="h6" component="div">
+                <Typography gutterBottom variant="h6" component="div" >
                  <b> {card.title2}</b>
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
+                <Typography variant="body2" >
                   {card.description}
                 </Typography>
                 <Typography
