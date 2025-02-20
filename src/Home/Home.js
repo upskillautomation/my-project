@@ -129,7 +129,9 @@ automate and lead.
             </Grid>
             <Grid size={{ xs: 12, md: 6 }}>
               <img src="https://cdn.prod.website-files.com/6188a89516ba2d18dfc2dcd4/651144cdf79f97f73b5e1036_Real%20Estate%20Agency%20Automation%20Blog%20Cover-p-1080.webp" width={isSmallScreen ? "300px" : "550px"}/>
-             
+             <Typography>Join us on a journey to unlock your potential and shape the future of
+smart manufacturing and intelligent systems. Together, let's innovate,
+automate and lead.</Typography>
             </Grid>
           </Grid>
         </Container>

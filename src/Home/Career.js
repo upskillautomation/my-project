@@ -77,37 +77,37 @@ export const Career = () => {
               md: 6,
             }}
           >
-            <Typography variant="h5"> Career Opportunities: </Typography>
-            <Typography>
+            <Typography variant="h5" sx={{color:'black'}}> Career Opportunities: </Typography> <br />
+            <Typography sx={{color:'black'}}>
               Graduates of our program can pursue roles such as:
             </Typography>
-            <br />
+           
             <ul>
               <li>
-                <Typography variant="h7"> Automation Engineer </Typography>
+                <Typography variant="h7" sx={{color:'black'}}> Automation Engineer . </Typography>
               </li>
               <li>
-                <Typography variant="h7"> PLC Programmer </Typography>
+                <Typography variant="h7" sx={{color:'black'}}> PLC Programmer . </Typography>
               </li>
               <li>
-                <Typography variant="h7"> SCADA Engineer </Typography>
+                <Typography variant="h7" sx={{color:'black'}}> SCADA Engineer .</Typography>
               </li>
               <li>
-                <Typography variant="h7">
-                  Robotics Engineer / Robotics Systems Integrator
+                <Typography variant="h7" sx={{color:'black'}}>
+                  Robotics Engineer / Robotics Systems Integrator .
                 </Typography>
               </li>
               <li>
-                <Typography variant="h7"> Control Systems Engineer </Typography>
+                <Typography variant="h7" sx={{color:'black'}}> Control Systems Engineer . </Typography>
               </li>
               <li>
-                <Typography variant="h7">
-                  Maintenance Engineer(Automation Systems)
+                <Typography variant="h7" sx={{color:'black'}}>
+                  Maintenance Engineer (Automation Systems) .
                 </Typography>
               </li>
               <li>
-                <Typography variant="h7">
-                  Control Panel Designer(AutoCAD)
+                <Typography variant="h7" sx={{color:'black'}}>
+                  Control Panel Designer (AutoCAD) .
                 </Typography>
               </li>
             </ul>
@@ -225,6 +225,7 @@ src={img}
                   industry-standard tools and technologies.
                 </Typography>
               </li>
+              <br/>
               <li>
                 <Typography variant="h7">
                   <b> Personalized Support: </b> From resume building to
@@ -232,6 +233,7 @@ src={img}
                   support to ensure your success.
                 </Typography>
               </li>
+              <br/>
               <li>
                 <Typography variant="h7">
                   <b> Industry Connections: </b> We connect you directly with
