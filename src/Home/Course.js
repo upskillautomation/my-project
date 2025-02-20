@@ -32,7 +32,6 @@ export const Course = () => {
             <b>Course Details: </b>
           </Typography>
 
-          <br />
         </Grid>
         <Grid
           container

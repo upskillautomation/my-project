@@ -102,7 +102,6 @@ const cardData = [
       "Anyone seeking to advance their knowledge in automation and control systems.",
     ],
     img: img1,
-    // Certification: "",
   },
   {
     title: "SCADA Fundamentals and Application Training.",
@@ -131,7 +130,6 @@ const cardData = [
       "Those interested in learning about SCADA technology for practical applications.",
     ],
     img: scad,
-    // Certification: "",
   },
  
  
