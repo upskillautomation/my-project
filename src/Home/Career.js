@@ -92,7 +92,7 @@ export const Career = () => {
               <li >
                 <Typography variant="h7" sx={{color:'black'}}> SCADA Engineer .</Typography>
               </li>
-              <li style={{color:'black'}}>>
+              <li style={{color:'black'}}>
                 <Typography variant="h7" sx={{color:'black'}}>
                   Robotics Engineer / Robotics Systems Integrator .
                 </Typography>
@@ -102,12 +102,12 @@ export const Career = () => {
               </li>
               <li style={{color:'black'}}>
                 <Typography variant="h7" sx={{color:'black'}}>
-                  Maintenance Engineer (Automation Systems) .
+                  Maintenance Engineer . (Automation Systems) 
                 </Typography>
               </li>
               <li style={{color:'black'}}>
                 <Typography variant="h7" sx={{color:'black'}}>
-                  Control Panel Designer (AutoCAD) .
+                  Control Panel Designer . (AutoCAD) , (EPLAN) 
                 </Typography>
               </li>
             </ul>
