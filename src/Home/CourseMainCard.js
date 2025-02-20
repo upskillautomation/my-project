@@ -183,7 +183,7 @@ export const CourseMainCard = () => {
                   {" "}
                   <b>Course Duration: {card.duration}</b>
                 </Typography>
-                <br/><br/>
+                <br/><br/><br/>
                 <Button
                   component={Link}
                   to="/course-details"
