@@ -138,12 +138,12 @@ function Header() {
 
           {/* Social Media Icons */}
           <Box
-            sx={{
-              display: { xs: "none", md: "flex" },
-              alignItems: "center",
-              ml: 2,
-            }}
-          >
+  sx={{
+    display: "flex", // Ensure visibility in all screen sizes
+    alignItems: "center",
+    ml: { xs: 0, md: 2 }, // Adjust margin for responsiveness
+  }}
+>
           
 
 <IconButton color="inherit" component="a" target="_blank" rel="noopener noreferrer">
