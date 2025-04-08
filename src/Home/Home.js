@@ -134,6 +134,43 @@ automate and lead.</Typography>
             </Grid>
           </Grid>
         </Container>
+<Container maxWidth="md" sx={{ mt: 6 }}>
+  <Card
+    elevation={6}
+    sx={{
+      borderRadius: 3,
+      p: 4,
+      backgroundColor: "#f5f5f5",
+      textAlign: "center",
+    }}
+  >
+    <Typography variant="h4" gutterBottom sx={{ color: "darkblue", fontWeight: "bold" }}>
+      Web Design Course
+    </Typography>
+    <Typography variant="body1" sx={{ mb: 2 }}>
+      Master the fundamentals of front-end web development with our comprehensive course covering:
+    </Typography>
+    <Grid container spacing={2} justifyContent="center">
+      {["HTML", "CSS", "Bootstrap", "Material UI (MUI)", "JavaScript", "React JS"].map((tech) => (
+        <Grid key={tech} item xs={6} sm={4}>
+          <Card
+            sx={{
+              p: 2,
+              backgroundColor: "#ffffff",
+              border: "1px solid #e0e0e0",
+              borderRadius: 2,
+              boxShadow: 2,
+            }}
+          >
+            <Typography variant="subtitle1" sx={{ fontWeight: 500 }}>
+              {tech}
+            </Typography>
+          </Card>
+        </Grid>
+      ))}
+    </Grid>
+  </Card>
+</Container>
 
         <HomeSlider />
         <PopUp  width={isSmallScreen ? "300px" : "400px"}/>
