@@ -121,9 +121,9 @@ export const Course = () => {
                   </>
                 ))}
 
-                {card?.keyFeatures.length ? (
+                {card?.Certification.length ? (
                   <Typography gutterBottom variant="h6" component="div">
-                    <b>Certification:</b> {card?.Certification}
+                  {card?.Certification ? <b>Certification:</b> {card?.Certification} : ""}  
                   </Typography>
                 ) : null}
               </CardContent>

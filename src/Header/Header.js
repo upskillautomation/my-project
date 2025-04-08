@@ -138,19 +138,19 @@ function Header() {
 
           {/* Social Media Icons */}
           <Box
-            sx={{
-              display: { xs: "none", md: "flex" },
-              alignItems: "center",
-              ml: 2,
-            }}
-          >
+  sx={{
+    display: "flex", // Ensure visibility in all screen sizes
+    alignItems: "center",
+    ml: { xs: 0, md: 2 }, // Adjust margin for responsiveness
+  }}
+>
           
 
 <IconButton color="inherit" component="a" target="_blank" rel="noopener noreferrer">
   <FacebookIcon />
 </IconButton>
 
-<IconButton color="inherit" component="a" href="https://www.instagram.com/upskillautomation?igsh=b2l0bTBpeHU2dXJv" target="_blank" rel="noopener noreferrer">
+<IconButton color="inherit" component="a" href="https://www.instagram.com/upskill_automation_institute?igsh=b2l0bTBpeHU2dXJv" target="_blank" rel="noopener noreferrer">
   <InstagramIcon />
 </IconButton>
 
