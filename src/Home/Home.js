@@ -17,8 +17,8 @@ import { useMediaQuery } from "@mui/material";
 import { Link } from "react-router-dom";
 
 function Home() {
-   const isSmallScreen = useMediaQuery("(max-width:600px)");
-  
+  const isSmallScreen = useMediaQuery("(max-width:600px)");
+
   const sliderSettings = {
     dots: false,
     infinite: true,
@@ -62,131 +62,192 @@ function Home() {
           </div>
         </Slider>
 
-        <Container maxWidth="xl"
-          sx={{ margin: "auto", mt: 8, p: 2,  color: "blue", borderRadius: 2 }}
+        <Container maxWidth="xl" sx={{ mt: 6 }}>
+          <Grid
+            container
+            spacing={4}
+            sx={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}
+          >
+            {/* Automation Course Card */}
+            <Grid item xs={12} md={6}>
+              <Card
+                sx={{
+                  p: 3,
+                  height: "100%",
+                  borderRadius: 3,
+                  backgroundColor: "#f0f8ff",
+                }}
+                elevation={4}
+              >
+                <Typography
+                  variant="h5"
+                  sx={{ color: "#003366", fontWeight: "bold", mb: 2 }}
+                >
+                  Automation Course
+                </Typography>
+                <Typography variant="body1">
+                  Learn industrial automation technologies including:
+                </Typography>
+                <ul style={{ paddingLeft: "1.2rem", marginTop: "1rem" }}>
+                  <li>PLC Programming</li>
+                  <li>SCADA</li>
+                  <li>HMI Design</li>
+                  <li>IoT Integration</li>
+                  <li>Robotics</li>
+                  <li>AutoCAD & EPLAN</li>
+                </ul>
+                <Button variant="outlined" component={Link} to="/course">
+                  More Details
+                </Button>
+              </Card>
+            </Grid>
+
+            {/* Web Development Course Card */}
+            <Grid item xs={12} md={6}>
+              <Card
+                sx={{
+                  p: 3,
+                  height: "100%",
+                  borderRadius: 3,
+                  backgroundColor: "#fff0f5",
+                }}
+                elevation={4}
+              >
+                <Typography
+                  variant="h5"
+                  sx={{ color: "#880e4f", fontWeight: "bold", mb: 2 }}
+                >
+                  Web Development Course
+                </Typography>
+                <Typography variant="body1">
+                  Master front-end technologies including:
+                </Typography>
+                <ul style={{ paddingLeft: "1.2rem", marginTop: "1rem" }}>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>Bootstrap</li>
+                  <li>Material UI (MUI)</li>
+                  <li>JavaScript</li>
+                  <li>React JS</li>
+                </ul>
+                <Button variant="outlined" component={Link} to="/web-details">
+                  {" "}
+                  More Details
+                </Button>
+              </Card>
+            </Grid>
+          </Grid>
+        </Container>
+        <Container
+          maxWidth="xl"
+          sx={{ margin: "auto", mt: 8, p: 2, color: "blue", borderRadius: 2 }}
           elevation={4}
         >
-          
-            <Grid container spacing={5} sx={{border :"1px solid blue", p:10, borderRadius: 2}}>
-              {/* Vision Section */}
-              <Grid size={{ xs: 12, md: 6 }}>
-                <Typography variant="h4" component="h2" sx={{ mb: 2, color:"black" }}>
-                  Vision:
-                </Typography>
-                <Typography variant="body1" sx={{color:"black"}}>
-                At Upskill Automation, our vision is to be the leading provider of
-automation training and education, empowering individuals and
-organizations to succeed in the rapidly evolving field of automation.
-                </Typography>
-              </Grid>
-
-              {/* Mission Section */}
-              <Grid size={{ xs: 12, md: 6 }}>
-                <Typography variant="h4" component="h2" sx={{ mb: 2, color:"black" }}>
-                  Mission:
-                </Typography>
-                <Typography variant="body1" sx={{color:"black"}}>
-                Our mission is to provide high-quality training and education in
-automation technologies, including PLC, HMI, SCADA, IoT and more.
-We're committed to help our students and clients stay up-to-date with
-the latest advancements in automation and achieve their career goals.
-
-                </Typography>
-              </Grid>
+          <Grid
+            container
+            spacing={5}
+            sx={{ border: "1px solid blue", p: 10, borderRadius: 2 }}
+          >
+            {/* Vision Section */}
+            <Grid size={{ xs: 12, md: 6 }}>
+              <Typography
+                variant="h4"
+                component="h2"
+                sx={{ mb: 2, color: "black" }}
+              >
+                Vision:
+              </Typography>
+              <Typography variant="body1" sx={{ color: "black" }}>
+                At Upskill Automation, our vision is to be the leading provider
+                of automation training and education, empowering individuals and
+                organizations to succeed in the rapidly evolving field of
+                automation.
+              </Typography>
             </Grid>
+
+            {/* Mission Section */}
+            <Grid size={{ xs: 12, md: 6 }}>
+              <Typography
+                variant="h4"
+                component="h2"
+                sx={{ mb: 2, color: "black" }}
+              >
+                Mission:
+              </Typography>
+              <Typography variant="body1" sx={{ color: "black" }}>
+                Our mission is to provide high-quality training and education in
+                automation technologies, including PLC, HMI, SCADA, IoT and
+                more. We're committed to help our students and clients stay
+                up-to-date with the latest advancements in automation and
+                achieve their career goals.
+              </Typography>
+            </Grid>
+          </Grid>
         </Container>
 
-        <Container maxWidth="lg" sx={{ mt: 6, backgroundColor: "darkBlue" , p:4, color:'white', borderRadius: 2}}>
+        <Container
+          maxWidth="lg"
+          sx={{
+            mt: 6,
+            backgroundColor: "darkBlue",
+            p: 4,
+            color: "white",
+            borderRadius: 2,
+          }}
+        >
           <Grid container spacing={5}>
             {/* Vision Section */}
             <Grid size={{ xs: 12, md: 6 }}>
               <Typography variant="h4" component="h2" sx={{ mb: 2 }}>
                 About Us :
               </Typography>
-              <Typography variant="body1" sx={{textAlign:"justify"}}>
-              At Upskill Automation, we're dedicated to empowering individuals and
-organizations with the skills and knowledge needed to succeed in the
-rapidly evolving field of automation.<br/><br/>
-Our basic objective is to provide training of Cutting-edge Industrial
-Automation Technologies to fresh engineers for bridging the
-demand-supply gap of ever growing demand of Industrial Automation
-Engineers and to enhance domain knowledge of working
-professionals with the advancement in this domain.<br/><br/>
-Upskill Automation provides advanced solutions to empower and
-enrich candidates with various training programs that cover a huge
-array of specialties in the technical communication and behavioral
-aspects of working in a company. With a team of seasoned
-automation experts and educators, we aim to bridge the gap between
-theoretical learning and real-world application. Whether you're a
-beginner or a professional looking to upskill Automation, our courses
-are tailored to meet diverse learning needs, from mastering the
-basics of PLCs, SCADA, HMI, Robotics, Autocad & Eplan programming
-to exploring advanced control strategies.<br/><br/>
-
-
+              <Typography variant="body1" sx={{ textAlign: "justify" }}>
+                At Upskill Automation, we're dedicated to empowering individuals
+                and organizations with the skills and knowledge needed to
+                succeed in the rapidly evolving field of automation.
+                <br />
+                <br />
+                Our basic objective is to provide training of Cutting-edge
+                Industrial Automation Technologies to fresh engineers for
+                bridging the demand-supply gap of ever growing demand of
+                Industrial Automation Engineers and to enhance domain knowledge
+                of working professionals with the advancement in this domain.
+                <br />
+                <br />
+                Upskill Automation provides advanced solutions to empower and
+                enrich candidates with various training programs that cover a
+                huge array of specialties in the technical communication and
+                behavioral aspects of working in a company. With a team of
+                seasoned automation experts and educators, we aim to bridge the
+                gap between theoretical learning and real-world application.
+                Whether you're a beginner or a professional looking to upskill
+                Automation, our courses are tailored to meet diverse learning
+                needs, from mastering the basics of PLCs, SCADA, HMI, Robotics,
+                Autocad & Eplan programming to exploring advanced control
+                strategies.
+                <br />
+                <br />
               </Typography>
             </Grid>
             <Grid size={{ xs: 12, md: 6 }}>
-              <img src="https://cdn.prod.website-files.com/6188a89516ba2d18dfc2dcd4/651144cdf79f97f73b5e1036_Real%20Estate%20Agency%20Automation%20Blog%20Cover-p-1080.webp" width={isSmallScreen ? "300px" : "550px"}/>
-              <br/><br/>
-             <Typography>Join us on a journey to unlock your potential and shape the future of
-smart manufacturing and intelligent systems. Together, let's innovate,
-automate and lead.</Typography>
+              <img
+                src="https://cdn.prod.website-files.com/6188a89516ba2d18dfc2dcd4/651144cdf79f97f73b5e1036_Real%20Estate%20Agency%20Automation%20Blog%20Cover-p-1080.webp"
+                width={isSmallScreen ? "300px" : "550px"}
+              />
+              <br />
+              <br />
+              <Typography>
+                Join us on a journey to unlock your potential and shape the
+                future of smart manufacturing and intelligent systems. Together,
+                let's innovate, automate and lead.
+              </Typography>
             </Grid>
           </Grid>
         </Container>
-        <Container maxWidth="xl" sx={{ mt: 6 }}>
-  <Grid
-    container
-    spacing={4}
-    sx={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}
-  >
-    {/* Automation Course Card */}
-    <Grid item xs={12} md={6}>
-      <Card sx={{ p: 3, height: "100%", borderRadius: 3, backgroundColor: "#f0f8ff" }} elevation={4}>
-        <Typography variant="h5" sx={{ color: "#003366", fontWeight: "bold", mb: 2 }}>
-          Automation Course
-        </Typography>
-        <Typography variant="body1">
-          Learn industrial automation technologies including:
-        </Typography>
-        <ul style={{ paddingLeft: "1.2rem", marginTop: "1rem" }}>
-          <li>PLC Programming</li>
-          <li>SCADA</li>
-          <li>HMI Design</li>
-          <li>IoT Integration</li>
-          <li>Robotics</li>
-          <li>AutoCAD & EPLAN</li>
-        </ul>
-        <Button variant="outlined" component={Link} to="/course">More Details</Button>
-      </Card>
-    </Grid>
-
-    {/* Web Development Course Card */}
-    <Grid item xs={12} md={6}>
-      <Card sx={{ p: 3, height: "100%", borderRadius: 3, backgroundColor: "#fff0f5" }} elevation={4}>
-        <Typography variant="h5" sx={{ color: "#880e4f", fontWeight: "bold", mb: 2 }}>
-          Web Development Course
-        </Typography>
-        <Typography variant="body1">
-          Master front-end technologies including:
-        </Typography>
-        <ul style={{ paddingLeft: "1.2rem", marginTop: "1rem" }}>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Bootstrap</li>
-          <li>Material UI (MUI)</li>
-          <li>JavaScript</li>
-          <li>React JS</li>
-        </ul>
-        <Button variant="outlined" component={Link} to="/web-details"> More Details</Button>
-      </Card> 
-    </Grid>
-  </Grid>
-</Container>
+       
 
         <HomeSlider />
-        <PopUp  width={isSmallScreen ? "300px" : "400px"}/>
+        <PopUp width={isSmallScreen ? "300px" : "400px"} />
       </Layout>
     </div>
   );
