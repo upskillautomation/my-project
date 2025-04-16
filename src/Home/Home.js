@@ -4,7 +4,7 @@ import HomeSlider from "../Slider/Slider";
 import Slider from "react-slick";
 import {
   Card,
-  CardContent,
+  Button,
   Container,
   Grid2 as Grid,
   Typography,
@@ -14,6 +14,7 @@ import img2 from "../Images/slide2.jpeg";
 import img3 from "../Images/slide3.jpeg";
 import PopUp from "./PopUp";
 import { useMediaQuery } from "@mui/material";
+import { Link } from "react-router-dom";
 
 function Home() {
    const isSmallScreen = useMediaQuery("(max-width:600px)");
@@ -134,95 +135,54 @@ automate and lead.</Typography>
             </Grid>
           </Grid>
         </Container>
-
-  <Container maxWidth="md" sx={{ mt: 6 }}>
-  <Grid container spacing={4}>
-    {/* HTML Class Details Card */}
+        <Container maxWidth="xl" sx={{ mt: 6 }}>
+  <Grid
+    container
+    spacing={4}
+    sx={{ display: "flex", justifyContent: "center", flexWrap: "wrap" }}
+  >
+    {/* Automation Course Card */}
     <Grid item xs={12} md={6}>
-      <Card sx={{ p: 3, borderRadius: 3, boxShadow: 3 }}>
-        <Typography variant="h5" gutterBottom sx={{ color: "darkred", fontWeight: "bold" }}>
-          HTML Class Details
+      <Card sx={{ p: 3, height: "100%", borderRadius: 3, backgroundColor: "#f0f8ff" }} elevation={4}>
+        <Typography variant="h5" sx={{ color: "#003366", fontWeight: "bold", mb: 2 }}>
+          Automation Course
         </Typography>
-        <Typography variant="body2" gutterBottom>
-          🗓 Duration: 4 Weeks
+        <Typography variant="body1">
+          Learn industrial automation technologies including:
         </Typography>
-        <Typography variant="body2" gutterBottom>
-          📍 Location: Online / Offline (Institute)
-        </Typography>
-        <Typography variant="body2" gutterBottom>
-          🧑‍🏫 Trainer: Mr. A. Sharma (Web Expert)
-        </Typography>
-        <Typography variant="body2" gutterBottom>
-          🧑‍🎓 Ideal for: Beginners in Web Development
-        </Typography>
-        <Typography variant="body2">
-          📘 Topics: HTML5, Tags, Forms, Layouts, Tables, Semantic HTML.
-        </Typography>
+        <ul style={{ paddingLeft: "1.2rem", marginTop: "1rem" }}>
+          <li>PLC Programming</li>
+          <li>SCADA</li>
+          <li>HMI Design</li>
+          <li>IoT Integration</li>
+          <li>Robotics</li>
+          <li>AutoCAD & EPLAN</li>
+        </ul>
+        <Button variant="outlined" component={Link} to="/course">More Details</Button>
       </Card>
     </Grid>
 
-    {/* Automation Class Details Card */}
+    {/* Web Development Course Card */}
     <Grid item xs={12} md={6}>
-      <Card sx={{ p: 3, borderRadius: 3, boxShadow: 3 }}>
-        <Typography variant="h5" gutterBottom sx={{ color: "darkgreen", fontWeight: "bold" }}>
-          Automation Class Details
+      <Card sx={{ p: 3, height: "100%", borderRadius: 3, backgroundColor: "#fff0f5" }} elevation={4}>
+        <Typography variant="h5" sx={{ color: "#880e4f", fontWeight: "bold", mb: 2 }}>
+          Web Development Course
         </Typography>
-        <Typography variant="body2" gutterBottom>
-          🗓 Duration: 6 Weeks
+        <Typography variant="body1">
+          Master front-end technologies including:
         </Typography>
-        <Typography variant="body2" gutterBottom>
-          📍 Location: Online / Offline (Institute)
-        </Typography>
-        <Typography variant="body2" gutterBottom>
-          🧑‍🏫 Trainer: Mr. K. Verma (Automation Engineer)
-        </Typography>
-        <Typography variant="body2" gutterBottom>
-          🧑‍🎓 Ideal for: Engineering Students / Working Professionals
-        </Typography>
-        <Typography variant="body2">
-          ⚙️ Topics: PLC, SCADA, HMI, IoT, Industrial Automation Basics.
-        </Typography>
-      </Card>
+        <ul style={{ paddingLeft: "1.2rem", marginTop: "1rem" }}>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+          <li>Material UI (MUI)</li>
+          <li>JavaScript</li>
+          <li>React JS</li>
+        </ul>
+        <Button variant="outlined" component={Link} to="/web-details"> More Details</Button>
+      </Card> 
     </Grid>
   </Grid>
-</Container>
- 
-<Container maxWidth="md" sx={{ mt: 6 }}>
-  <Card
-    elevation={6}
-    sx={{
-      borderRadius: 3,
-      p: 4,
-      backgroundColor: "#f5f5f5",
-      textAlign: "center",
-    }}
-  >
-    <Typography variant="h4" gutterBottom sx={{ color: "darkblue", fontWeight: "bold" }}>
-      Web Design Course
-    </Typography>
-    <Typography variant="body1" sx={{ mb: 2 }}>
-      Master the fundamentals of front-end web development with our comprehensive course covering:
-    </Typography>
-    <Grid container spacing={2} justifyContent="center">
-      {["HTML", "CSS", "Bootstrap", "Material UI (MUI)", "JavaScript", "React JS"].map((tech) => (
-        <Grid key={tech} item xs={6} sm={4}>
-          <Card
-            sx={{
-              p: 2,
-              backgroundColor: "#ffffff",
-              border: "1px solid #e0e0e0",
-              borderRadius: 2,
-              boxShadow: 2,
-            }}
-          >
-            <Typography variant="subtitle1" sx={{ fontWeight: 500 }}>
-              {tech}
-            </Typography>
-          </Card>
-        </Grid>
-      ))}
-    </Grid>
-  </Card>
 </Container>
 
         <HomeSlider />
