@@ -134,6 +134,59 @@ automate and lead.</Typography>
             </Grid>
           </Grid>
         </Container>
+
+  <Container maxWidth="md" sx={{ mt: 6 }}>
+  <Grid container spacing={4}>
+    {/* HTML Class Details Card */}
+    <Grid item xs={12} md={6}>
+      <Card sx={{ p: 3, borderRadius: 3, boxShadow: 3 }}>
+        <Typography variant="h5" gutterBottom sx={{ color: "darkred", fontWeight: "bold" }}>
+          HTML Class Details
+        </Typography>
+        <Typography variant="body2" gutterBottom>
+          🗓 Duration: 4 Weeks
+        </Typography>
+        <Typography variant="body2" gutterBottom>
+          📍 Location: Online / Offline (Institute)
+        </Typography>
+        <Typography variant="body2" gutterBottom>
+          🧑‍🏫 Trainer: Mr. A. Sharma (Web Expert)
+        </Typography>
+        <Typography variant="body2" gutterBottom>
+          🧑‍🎓 Ideal for: Beginners in Web Development
+        </Typography>
+        <Typography variant="body2">
+          📘 Topics: HTML5, Tags, Forms, Layouts, Tables, Semantic HTML.
+        </Typography>
+      </Card>
+    </Grid>
+
+    {/* Automation Class Details Card */}
+    <Grid item xs={12} md={6}>
+      <Card sx={{ p: 3, borderRadius: 3, boxShadow: 3 }}>
+        <Typography variant="h5" gutterBottom sx={{ color: "darkgreen", fontWeight: "bold" }}>
+          Automation Class Details
+        </Typography>
+        <Typography variant="body2" gutterBottom>
+          🗓 Duration: 6 Weeks
+        </Typography>
+        <Typography variant="body2" gutterBottom>
+          📍 Location: Online / Offline (Institute)
+        </Typography>
+        <Typography variant="body2" gutterBottom>
+          🧑‍🏫 Trainer: Mr. K. Verma (Automation Engineer)
+        </Typography>
+        <Typography variant="body2" gutterBottom>
+          🧑‍🎓 Ideal for: Engineering Students / Working Professionals
+        </Typography>
+        <Typography variant="body2">
+          ⚙️ Topics: PLC, SCADA, HMI, IoT, Industrial Automation Basics.
+        </Typography>
+      </Card>
+    </Grid>
+  </Grid>
+</Container>
+ 
 <Container maxWidth="md" sx={{ mt: 6 }}>
   <Card
     elevation={6}
