@@ -123,7 +123,7 @@ export const Course = () => {
 
                 {card?.Certification.length ? (
                   <Typography gutterBottom variant="h6" component="div">
-                  {card?.Certification ? <b>Certification:</b> {card?.Certification} : ""}  
+                  {card?.Certification ? <><b>Certification:</b>{card?.Certification} </>: ""}  
                   </Typography>
                 ) : null}
               </CardContent>

@@ -82,6 +82,10 @@ function Header() {
               <MenuItem component={Link} to="/contact" onClick={handleCloseNavMenu}>
                 <Typography textAlign="center">Contact</Typography>
               </MenuItem>
+              <MenuItem component={Link} to="/contact" onClick={handleCloseNavMenu}>
+                <Typography textAlign="center">Web Development Course</Typography>
+              </MenuItem>
+              
             </Menu>
           </Box>
 
