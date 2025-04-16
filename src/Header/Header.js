@@ -26,9 +26,9 @@ function Header() {
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
-
+  
   return (
-    <AppBar position="static" sx={{ backgroundColor: "darkblue" }}>
+    <AppBar position="static" sx={{ backgroundColor: "darkblue", height:80, alignItems:'center' }}>
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* Logo */}
