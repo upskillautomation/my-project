@@ -386,7 +386,7 @@ function Home() {
             "your_service_id",
             "your_template_id",
             e.target,
-            "your_public_key"
+            "65OIAIsKtu8cr6p6X"
           )
           .then(() => {
             alert("Form submitted successfully!");
@@ -463,7 +463,7 @@ function Home() {
         <Card
           sx={{
             p: 0,
-            height: 700,
+            height: { xs: "auto", md: 700 },
             borderRadius: 3,
             backgroundColor: "#f0f8ff",
 
@@ -506,7 +506,7 @@ function Home() {
         <Card
           sx={{
             p: 0,
-            height: 700,
+            height: { xs: "auto", md: 700 },
             borderRadius: 3,
             backgroundColor: "#fff0f5",
           }}
